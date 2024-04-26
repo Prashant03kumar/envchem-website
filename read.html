@@ -21,6 +21,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="text-[18px]">
+    <divyanshi
+      id="app"
+      class="w-full max-w-[100vw] overflow-x-hidden h-[100vh] bg-blue-200"
+    >
+      <divyanshi
+        id="nav"
+        class="w-full h-[60px] bg-gray-100 flex flex-row justify-between items-center px-5 sticky top-0 z-10"
+      >
+        <img class="h-[80%] aspect-[16/9] rounded-md" src="logo3.jpeg" />
+        <divyanshi
+          class="flex flex-row items-center font-[500] justify-between gap-x-10"
+        >
+          <a
+            href="/#hero"
+            class="rounded hover:scale-110 transition-all duration-300"
+            >Home</a
+          >
+          <a
+            href="/#desc"
+            class="rounded hover:scale-110 transition-all duration-300"
+            >About</a
+          >
+          <a
+            href="faq.html"
+            class="rounded hover:scale-110 transition-all duration-300"
+            >FAQs</a
+          >
+          <a
+            href="contact.html"
+            class="rounded hover:scale-110 transition-all duration-300"
+            >Contact</a
+          >
+        </divyanshi>
+
+        <button
+          class="aspect-[3/1] h-[40px] rounded-md bg-green-700 text-white font-semibold drop-shadow-md hover:drop-shadow-xl"
+        >
+          Get Started
+        </button>
+      </divyanshi>
     <section class="text-gray-600 body-font ">
       <div
         class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
@@ -56,7 +96,7 @@
           <figure><img
             class="object-cover object-center rounded"
             alt="hero"
-            src="https://i.pinimg.com/originals/09/16/75/091675d26c4a324d30520b9057b82bd5.jpg"
+            src="https://t3.ftcdn.net/jpg/05/58/04/22/360_F_558042217_1cgsAOAltZL0DFjsYKBn6Xcgn7JAyzZw.jpg"
           />
           <figcaption>The root cause of soil pollution</figcaption>
         
@@ -82,8 +122,7 @@
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <figure>
-        <img class="object-cover object-center rounded" alt="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTUMTtnCy21T8KXtc4NaWiuRJy7ikgVGxPpA&usqp=CAU
-        "><figcaption>Soil erosion decreases soil fertility, which can negatively affect crop yields</figcaption>
+        <img class="object-cover object-center rounded" alt="hero" src="https://t3.ftcdn.net/jpg/05/09/37/92/360_F_509379281_Lhc3ae00r0NsVnGUtMnG1uaprdG4nM4L.jpg"><figcaption>Creates an acidic environment that is detrimental to the microorganisms</figcaption>
         
       </figure>
     </div>
@@ -96,26 +135,26 @@
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <figure>
             <img
-            class="object-scale-down h-40 w-90 rounded-lg px-20"
+            class="object-scale-down h-60 w-full rounded-lg px-20"
             alt="hero"
-            src="https://www.nrdc.org/sites/default/files/styles/medium_16x9_100/public/media-uploads/nrcstn83005_2400.jpg.webp?h=c3635fa2&itok=LeVJly06"
+            src="https://cdn.downtoearth.org.in/library/large/2018-09-19/0.87816100_1537345767_waste.jpg"
           />
-          <figcaption class="px-[34%]">Water Erosion</figcaption>
+          <figcaption class="px-[34%]">Biological Waste</figcaption>
           </figure>
           <figure>
             <img
-            class="object-scale-down h-40 w-90 rounded-lg px-20"
+            class="object-scale-down h-60 w-100 rounded-lg px-20"
             alt="hero"
-            src="https://www.nrdc.org/sites/default/files/styles/medium_16x9_100/public/media-uploads/nrcstn83005_2400.jpg.webp?h=c3635fa2&itok=LeVJly06"
+            src="https://i0.wp.com/zenbird.media/wp-content/uploads/2021/03/ceconomy_nuclearwaste.jpg?fit=1000%2C563&ssl=1"
           />
-          <figcaption class="px-[34%]">Wind Erosion</figcaption>
+          <figcaption class="px-[30%]">Radioactive pollutants</figcaption>
           </figure><figure>
             <img
-            class="object-scale-down h-40 w-90 rounded-lg px-20 "
+            class="object-scale-down h-60 w-90 rounded-lg px-20 "
             alt="hero"
-            src="https://www.nrdc.org/sites/default/files/styles/medium_16x9_100/public/media-uploads/nrcstn83005_2400.jpg.webp?h=c3635fa2&itok=LeVJly06"
+            src="https://www.southernwasteandrecycling.com/wp-content/uploads/120245648[1].jpg"
           />
-          <figcaption class="px-[25%]">Anthropogenic Soil Erosion</figcaption>
+          <figcaption class="px-[25%]">Industrial Waste</figcaption>
           </figure>
         </div>
         <div
@@ -127,7 +166,7 @@
             Type of Soil pollution
           </h1>
           <p class="mb-8 leading-relaxed">Soil pollution consists of pollutants and contaminants. The main pollutants of the soil are the biological agents and some of the human activities. Soil contaminants are all products of soil pollutants that contaminate the soil. Human activities that pollute the soil range from agricultural practices that infest the crops with pesticide chemicals to urban or industrial wastes or radioactive emissions that contaminate the soil with various toxic substances></p>
-          <h2
+          <ul class="list-disc"><li><h2
             class="title-font sm:text-xl text-3xl mb-4 font-medium text-gray-900"
           >
             Biological waste
@@ -135,35 +174,35 @@
 
           <p class="mb-8 leading-relaxed">
             Biological agents work inside the soil to introduce manures and digested sludge (coming from the human, bird and animal excreta) into the soil
-        </p>
-        <h2
+        </p></li>
+          <li><h2
             class="title-font sm:text-xl text-3xl mb-4 font-medium text-gray-900"
           >
             Agricultural practices
           </h2>
 
-          <p class="mb-8 leading-relaxed">The soil of the crops is polluted to a large extent with pesticides, fertilizers, herbicides, slurry, debris, and manure</p>
-          <h2
+          <p class="mb-8 leading-relaxed">The soil of the crops is polluted to a large extent with pesticides, fertilizers, herbicides, slurry, debris, and manure</p></li>
+          <li><h2
             class="title-font sm:text-xl text-3xl mb-4 font-medium text-gray-900"
           >
             Radioactive pollutants
           </h2>
 
-          <p class="mb-8 leading-relaxed">Radioactive substances such as Radium, Thorium, Uranium, Nitrogen, etc. can infiltrate the soil and create toxic effects.</p>
-          <h2
+          <p class="mb-8 leading-relaxed">Radioactive substances such as Radium, Thorium, Uranium, Nitrogen, etc. can infiltrate the soil and create toxic effects.</p></li>
+          <li><h2
             class="title-font sm:text-xl text-3xl mb-4 font-medium text-gray-900"
           >
             Urban waste
           </h2>
 
-          <p class="mb-8 leading-relaxed">Urban waste consists of garbage and rubbish materials, dried sludge and sewage from domestic and commercial waste.</p>
-          <h2
+          <p class="mb-8 leading-relaxed">Urban waste consists of garbage and rubbish materials, dried sludge and sewage from domestic and commercial waste.</p></li>
+          <li><h2
             class="title-font sm:text-xl text-3xl mb-4 font-medium text-gray-900"
           >
             Industrial waste
           </h2>
 
-          <p class="mb-8 leading-relaxed">Steel, pesticides, textiles, drugs, glass, cement, petroleum, etc. are produced by paper mills, oil refineries, sugar factories, petroleum industries and others as such.</p>
+          <p class="mb-8 leading-relaxed">Steel, pesticides, textiles, drugs, glass, cement, petroleum, etc. are produced by paper mills, oil refineries, sugar factories, petroleum industries and others as such.</p></li></ul>
         
       </div>
     </section>
@@ -179,8 +218,7 @@
     </div>
     <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <figure>
-        <img class="object-cover object-center rounded" alt="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTUMTtnCy21T8KXtc4NaWiuRJy7ikgVGxPpA&usqp=CAU
-        "><figcaption>Soil erosion decreases soil fertility, which can negatively affect crop yields</figcaption>
+        <img class="object-cover object-center rounded" alt="hero" src="https://www.worldatlas.com/r/w1200/upload/4b/0b/39/pollution-in-china.jpg"><figcaption>Contamination of soil at higher than normal concentrations by waste materials</figcaption>
         
       </figure>
     </div>
